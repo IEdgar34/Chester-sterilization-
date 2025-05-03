@@ -8,20 +8,23 @@
 @use "blocks/slider";
 @use "blocks/services";
 @use "blocks/about";
-@use 'blocks/team';
+@use "blocks/team";
 @use "blocks/photogallery";
 
-.title{
+.title {
     color: rgb(72, 124, 171);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 110%;
-        letter-spacing: 0%;
-        text-align: center;
-        text-transform: uppercase;
-        @media(max-width: 600px){
-            font-size: 30px;
-        }
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    @media (max-width: 600px) {
+        font-size: 30px;
+    }
+    @media (max-width: 450px) {
+        font-size: 25px;
+    }
 }
 
 .overflow {
