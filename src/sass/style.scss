@@ -1,0 +1,29 @@
+@use "base/base";
+@use "variables/variables";
+@use "blocks/header";
+@use "blocks/main";
+@use "blocks/footer";
+@use "blocks/nav";
+@use "blocks/submenu";
+@use "blocks/slider";
+@use "blocks/services";
+@use "blocks/about";
+@use 'blocks/team';
+@use "blocks/photogallery";
+
+.title{
+    color: rgb(72, 124, 171);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        @media(max-width: 600px){
+            font-size: 30px;
+        }
+}
+
+.overflow {
+    overflow: hidden;
+}
