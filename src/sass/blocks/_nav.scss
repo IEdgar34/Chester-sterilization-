@@ -169,6 +169,7 @@
     /* display: none; */
     width: 100%;
     height: calc(100dvh - 125px);
+    height: calc((var(--vh, 1vh) * 100) - 126px);
     background: rgb(255, 255, 255);
     position: absolute;
     transform: translateX(-100%);
