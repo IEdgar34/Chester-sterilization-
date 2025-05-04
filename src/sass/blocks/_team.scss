@@ -25,7 +25,7 @@
         margin: 0 auto;
         min-height: 414px;
         /* border: 1px solid red; */
-
+        
         &_item {
             max-width: 280px !important;
             min-height: 414px !important;
@@ -67,7 +67,9 @@
         }
 
         .swiper-slide {
-            width: max-content !important;
+            width: 100% !important;
+            max-width: 280px !important;
+            margin: 0 auto;
             .swiper-wrapper {
                 height: 100%;
             }

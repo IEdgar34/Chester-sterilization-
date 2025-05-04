@@ -1,8 +1,8 @@
 .photogallery {
     width: 100%;
     height: auto;
-    padding-bottom: 166px;
-    @media(max-width: 500px){
+    padding-bottom: 115px;
+    @media (max-width: 500px) {
         padding-bottom: 70px;
     }
     &__title {
@@ -63,7 +63,8 @@
             @media (max-width: 425px) {
                 height: 620px !important;
             }
-            img {
+
+            /*  img {
                 display: block;
                 width: 100%;
                 height: 420px;
@@ -74,6 +75,18 @@
 
                     height: 300px;
                 }
+            } */
+        }
+        &_img {
+            display: block;
+            width: 100%;
+            height: 420px;
+            border-radius: 20px;
+            object-fit: cover;
+            @media (max-width: 425px) {
+                /* object-fit: contain; */
+
+                height: 300px;
             }
         }
     }

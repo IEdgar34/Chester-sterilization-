@@ -10,6 +10,7 @@
 @use "blocks/about";
 @use "blocks/team";
 @use "blocks/photogallery";
+@use "blocks/contacts";
 
 .title {
     color: rgb(72, 124, 171);
@@ -19,12 +20,12 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    @media (max-width: 600px) {
+    /* @media (max-width: 600px) {
         font-size: 30px;
     }
     @media (max-width: 450px) {
         font-size: 25px;
-    }
+    } */
 }
 
 .overflow {
